@@ -25,7 +25,6 @@ for i in range(len(mappings)):
     mappings[i].sort(key=lambda x: x[0])
 
 def get_location(init, amount, index):
-    # print(init, amount, index)
     if index == len(mappings):
         return init
 
